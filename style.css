@@ -1,0 +1,21 @@
+
+
+.container{
+	margin: 10rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    grid-gap: ;
+     flex-wrap: wrap;
+     grid-template-rows: 300px;
+
+}
+.item{
+	background-image: url('../Images/man.jpg');
+	background-size: cover;
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+	padding: 0rem;
+	border: 1px solid #ddd;
+	
+}
